@@ -96,6 +96,9 @@ int cmd_login(int argc, char **argv)
 
 	username = argv[optind];
 	iterations = lastpass_iterations(username);
+	printf("iterations: %d\n", iterations);
+	if (iterations == 100100)
+		iterations = 380000;
 	if (!iterations)
 		die("Unable to fetch iteration count. Check your internet connection and be sure your username is valid.");
 
