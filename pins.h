@@ -2,7 +2,9 @@
 #define PINS_H
 const char *PK_PINS[] = {
 	/* current lastpass.com primary (Thawte) */
-	"HXXQgxueCIU5TTLHob/bPbwcKOKw6DkfsTWYHbxbqTY=",
+	"YDjIAXSYj+mh+25FGifAiKN4oNOAj+as6gQv4naQG0M=",
+	/* previous key for lastpass.com */
+	/* "HXXQgxueCIU5TTLHob/bPbwcKOKw6DkfsTWYHbxbqTY=", */
 	/* current lastpass.eu primary (AddTrust) */
 	"lCppFqbkrlJ3EcVFAkeip0+44VaoJUymbnOaEUk7tEU=",
 	/* future lastpass root CA (GlobalSign R1) */
